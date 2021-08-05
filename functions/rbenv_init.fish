@@ -9,5 +9,5 @@ function rbenv_init -d 'Initialize rbenv'
     	end
     end
 
-    rbenv rehash >/dev/null ^/dev/null
+    rbenv rehash >/dev/null 2>&1
 end
